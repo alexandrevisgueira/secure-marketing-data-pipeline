@@ -4,6 +4,35 @@ Pipeline de dados focado em marketing de performance, com arquitetura modular, m
 
 ---
 
+## 🚀 Highlights
+
+- End-to-end ETL pipeline
+- Marketing performance metrics (CTR, CPC, CPA, ROI)
+- Logging and error handling
+- Secure configuration with .env
+- Data persistence (SQLite + CSV)
+
+---
+
+## 💰 Aplicação em Negócio
+
+Este pipeline permite:
+
+- Análise de performance de campanhas
+- Otimização de ROI
+- Redução de CAC
+- Identificação de canais mais eficientes
+- Base para dashboards e tomada de decisão
+
+👉 Pode ser utilizado por:
+
+- Agências de marketing
+- E-commerces
+- Infoprodutores
+- SaaS
+
+---
+
 ## 🎯 Objetivo
 
 Construir um pipeline de dados completo que:
@@ -20,9 +49,9 @@ Construir um pipeline de dados completo que:
 
 Pipeline estruturado em camadas:
 
-- **Extract** → Coleta de dados
-- **Transform** → Processamento e métricas
-- **Load** → Persistência em banco + exportação
+- **Extract** → Coleta de dados  
+- **Transform** → Processamento e métricas  
+- **Load** → Persistência em banco + exportação  
 
 ---
 
@@ -60,6 +89,7 @@ Pipeline estruturado em camadas:
 
 - Banco de dados SQLite:
   - `marketing_pipeline.db`
+
 - Arquivo CSV:
   - `output/campaign_performance.csv`
 
